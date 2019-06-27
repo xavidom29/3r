@@ -1,6 +1,6 @@
 webpackJsonp([8],{
 
-/***/ 334:
+/***/ 333:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ListMasterPageModule", function() { return ListMasterPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_master__ = __webpack_require__(347);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__list_master__ = __webpack_require__(346);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,7 +41,7 @@ var ListMasterPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 347:
+/***/ 346:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -70,7 +70,7 @@ var ListMasterPage = /** @class */ (function () {
     }
     ListMasterPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-list-master',template:/*ion-inline-start:"C:\Proyectos\projects\3rtest\myapp\src\pages\list-master\list-master.html"*/'<ion-header>\n  <ion-navbar>\n       <img src="../../assets/imagenes/icon/favicon.png"  class="logo" alt="">\n       <ion-title>Home</ion-title>\n\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <p>HOME</p>\n  <ion-card class="card-ios">\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="assets/imagenes/icn_guia.png">\n        </ion-avatar>\n        <h2>Guía del reciclaje</h2>\n      </ion-item>\n      <ion-card-content>\n        <p class="slide-text">Hay algo que todos tenemos en común:el aire que nos da la vida y, cada vez más, nos la\n          quita 9 de cada 10 person…</p>\n      </ion-card-content>\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\Proyectos\projects\3rtest\myapp\src\pages\list-master\list-master.html"*/
+            selector: 'page-list-master',template:/*ion-inline-start:"C:\proyectos\projects\3rtest\myapp\src\pages\list-master\list-master.html"*/'<ion-header>\n  <ion-navbar>\n       <img src="../../assets/imagenes/icon/favicon.png"  class="logo" alt="">\n       <ion-title>Home</ion-title>\n\n    </ion-navbar>\n</ion-header>\n\n<ion-content>\n  <p>HOME</p>\n  <ion-card class="card-ios">\n      <ion-item>\n        <ion-avatar item-start>\n          <img src="assets/imagenes/icn_guia.png">\n        </ion-avatar>\n        <h2>Guía del reciclaje</h2>\n      </ion-item>\n      <ion-card-content>\n        <p class="slide-text">Hay algo que todos tenemos en común:el aire que nos da la vida y, cada vez más, nos la\n          quita 9 de cada 10 person…</p>\n      </ion-card-content>\n    </ion-card>\n\n</ion-content>\n'/*ion-inline-end:"C:\proyectos\projects\3rtest\myapp\src\pages\list-master\list-master.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_2__providers_data_data__["a" /* DataProvider */]])
     ], ListMasterPage);
