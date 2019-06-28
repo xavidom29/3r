@@ -1,14 +1,11 @@
 {
   "name": "3rProject",
   "short_name": "3rProject",
-  "start_url": ".",
+  "start_url": "index.html",
   "display": "standalone",
-  "related_applications": [{
-    "platform": "web"
-}],
   "icons": [{
-    "src": "assets/imagenes/icon/advance-card-bttf.png",
-    "sizes": "64x64",
+    "src": "assets/imagenes/icon/logo.png",
+    "sizes": "512x512",
     "type": "image/png"
   }],
   "background_color": "#FAFAFA",
