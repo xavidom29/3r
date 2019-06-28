@@ -48,7 +48,7 @@ var DataProvider = /** @class */ (function () {
         this.http = http;
         this._api = _api;
         this.data = [{}];
-        this.urlAPI = "http://18.200.122.203:80/";
+        this.urlAPI = "https://18.200.122.203:443/";
     }
     DataProvider.prototype.getProduct = function (ean) {
         var _this = this;
@@ -92,11 +92,11 @@ webpackEmptyAsyncContext.id = 133;
 
 var map = {
 	"../pages/cards/cards.module": [
-		330,
+		331,
 		12
 	],
 	"../pages/content/content.module": [
-		331,
+		330,
 		11
 	],
 	"../pages/item-create/item-create.module": [
@@ -104,15 +104,15 @@ var map = {
 		10
 	],
 	"../pages/item-detail/item-detail.module": [
-		334,
+		333,
 		9
 	],
 	"../pages/list-master/list-master.module": [
-		333,
+		335,
 		8
 	],
 	"../pages/login/login.module": [
-		335,
+		334,
 		7
 	],
 	"../pages/menu/menu.module": [
@@ -120,11 +120,11 @@ var map = {
 		6
 	],
 	"../pages/search/search.module": [
-		338,
+		337,
 		0
 	],
 	"../pages/settings/settings.module": [
-		337,
+		338,
 		5
 	],
 	"../pages/signup/signup.module": [
@@ -282,15 +282,15 @@ var AppModule = /** @class */ (function () {
                 }),
                 __WEBPACK_IMPORTED_MODULE_9_ionic_angular__["d" /* IonicModule */].forRoot(__WEBPACK_IMPORTED_MODULE_11__app_component__["a" /* MyApp */], {}, {
                     links: [
-                        { loadChildren: '../pages/cards/cards.module#CardsPageModule', name: 'CardsPage', segment: 'cards', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/content/content.module#ContentPageModule', name: 'ContentPage', segment: 'content', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/cards/cards.module#CardsPageModule', name: 'CardsPage', segment: 'cards', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-create/item-create.module#ItemCreatePageModule', name: 'ItemCreatePage', segment: 'item-create', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/list-master/list-master.module#ListMasterPageModule', name: 'ListMasterPage', segment: 'list-master', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/item-detail/item-detail.module#ItemDetailPageModule', name: 'ItemDetailPage', segment: 'item-detail', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/login/login.module#LoginPageModule', name: 'LoginPage', segment: 'login', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/list-master/list-master.module#ListMasterPageModule', name: 'ListMasterPage', segment: 'list-master', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/menu/menu.module#MenuPageModule', name: 'MenuPage', segment: 'menu', priority: 'low', defaultHistory: [] },
-                        { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/search/search.module#SearchPageModule', name: 'SearchPage', segment: 'search', priority: 'low', defaultHistory: [] },
+                        { loadChildren: '../pages/settings/settings.module#SettingsPageModule', name: 'SettingsPage', segment: 'settings', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/signup/signup.module#SignupPageModule', name: 'SignupPage', segment: 'signup', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tabs/tabs.module#TabsPageModule', name: 'TabsPage', segment: 'tabs', priority: 'low', defaultHistory: [] },
                         { loadChildren: '../pages/tutorial/tutorial.module#TutorialPageModule', name: 'TutorialPage', segment: 'tutorial', priority: 'low', defaultHistory: [] },
