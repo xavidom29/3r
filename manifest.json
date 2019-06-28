@@ -1,5 +1,5 @@
 {
-  "name": "3r",
+  "name": "3rProject",
   "short_name": "3rProject",
   "start_url": "index.html",
   "display": "standalone",
@@ -8,6 +8,6 @@
     "sizes": "512x512",
     "type": "image/png"
   }],
-  "background_color": "#4e8ef7",
-  "theme_color": "#4e8ef7"
+  "background_color": "#FAFAFA",
+  "theme_color": "#FAFAFA"
 }
