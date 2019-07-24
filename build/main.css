@@ -25872,6 +25872,13 @@ page-item-detail .item-detail {
   max-height: 300px;
 }
 
+.titulo {
+  position: relative;
+  margin: auto;
+  text-align: center;
+  padding: 5px;
+}
+
 .slide-titlepun {
   padding-left: 100px;
 }
