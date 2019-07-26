@@ -25928,7 +25928,8 @@ page-tutorial .slide-title {
 page-tutorial .slide-image-tutorial {
   max-height: 40%;
   max-width: 60%;
-  margin: 8vh;
+  display: block;
+  margin: auto;
 }
 
 page-tutorial b {
