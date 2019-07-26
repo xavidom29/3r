@@ -25926,10 +25926,10 @@ page-tutorial .slide-title {
 }
 
 page-tutorial .slide-image-tutorial {
-  max-height: 40%;
-  max-width: 60%;
+  max-height: 100%;
+  max-width: 100%;
   display: block;
-  margin: auto;
+  margin: 8vh;
 }
 
 page-tutorial b {
