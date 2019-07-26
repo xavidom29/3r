@@ -25930,6 +25930,7 @@ page-tutorial .slide-image-tutorial {
   max-width: 100%;
   display: block;
   margin: 8vh;
+  font-size: 0%;
 }
 
 page-tutorial b {
