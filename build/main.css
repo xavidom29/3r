@@ -25799,7 +25799,7 @@ page-item-detail .item-detail {
   padding-left: 83px;
 }
 
-.slide-image {
+.slide-image-search {
   padding-left: 45px;
   padding-top: 35px;
 }
@@ -25883,7 +25883,7 @@ page-item-detail .item-detail {
   padding-left: 100px;
 }
 
-.slide-image {
+.slide-image-settings {
   max-height: 230px;
   padding-left: 35px;
   padding-top: 15px;
@@ -25925,10 +25925,10 @@ page-tutorial .slide-title {
   margin-top: 2.8rem;
 }
 
-page-tutorial .slide-image {
+page-tutorial .slide-image-tutorial {
   max-height: 40%;
   max-width: 60%;
-  margin: 36px 0;
+  margin: 8vh;
 }
 
 page-tutorial b {
