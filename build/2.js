@@ -1,6 +1,6 @@
 webpackJsonp([2],{
 
-/***/ 342:
+/***/ 341:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -8,7 +8,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "TutorialPageModule", function() { return TutorialPageModule; });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_0__angular_core__ = __webpack_require__(0);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_ionic_angular__ = __webpack_require__(118);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tutorial__ = __webpack_require__(356);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_2__tutorial__ = __webpack_require__(355);
 var __decorate = (this && this.__decorate) || function (decorators, target, key, desc) {
     var c = arguments.length, r = c < 3 ? target : desc === null ? desc = Object.getOwnPropertyDescriptor(target, key) : desc, d;
     if (typeof Reflect === "object" && typeof Reflect.decorate === "function") r = Reflect.decorate(decorators, target, key, desc);
@@ -41,7 +41,7 @@ var TutorialPageModule = /** @class */ (function () {
 
 /***/ }),
 
-/***/ 356:
+/***/ 355:
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -98,7 +98,7 @@ var TutorialPage = /** @class */ (function () {
     };
     TutorialPage = __decorate([
         Object(__WEBPACK_IMPORTED_MODULE_0__angular_core__["m" /* Component */])({
-            selector: 'page-tutorial',template:/*ion-inline-start:"C:\Users\Xavi\Desktop\3rProject\myApp\src\pages\tutorial\tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">Omitir</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image-tutorial" />\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n      <button id="boton">\n          Siguiente\n        </button>\n    </ion-slide>\n    <ion-slide>\n      <img class="slide-image-tutorial" src="assets/imagenes/ilus_onb3_consejos.png"  />\n      <h2 class="slide-title">Consejos de reciclaje</h2>\n      <p> Consejos y datos curiosos\n          para que recicles de forma correcta y sencilla.</p>\n      <button  (click)="startApp()" id="boton">\n        Entrar caca1\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Xavi\Desktop\3rProject\myApp\src\pages\tutorial\tutorial.html"*/
+            selector: 'page-tutorial',template:/*ion-inline-start:"C:\Users\Xavi\Desktop\3rProject\myApp\src\pages\tutorial\tutorial.html"*/'<ion-header no-shadow>\n  <ion-navbar>\n    <ion-buttons end *ngIf="showSkip">\n      <button ion-button (click)="startApp()" color="primary">Omitir</button>\n    </ion-buttons>\n  </ion-navbar>\n</ion-header>\n\n<ion-content no-bounce>\n  <ion-slides pager="true" dir="{{dir}}" (ionSlideWillChange)="onSlideChangeStart($event)">\n    <ion-slide *ngFor="let slide of slides">\n      <img [src]="slide.image" class="slide-image-tutorial" />\n      <h2 class="slide-title" [innerHTML]="slide.title"></h2>\n      <p [innerHTML]="slide.description"></p>\n      <button id="boton">\n          Siguiente\n        </button>\n    </ion-slide>\n    <ion-slide>\n      <img class="slide-image-tutorial" src="assets/imagenes/ilus_onb3_consejos.png"  />\n      <h2 class="slide-title">Consejos de reciclaje</h2>\n      <p> Consejos y datos curiosos\n          para que recicles de forma correcta y sencilla.</p>\n      <button  (click)="startApp()" id="boton">\n        Entrar\n      </button>\n    </ion-slide>\n  </ion-slides>\n</ion-content>\n'/*ion-inline-end:"C:\Users\Xavi\Desktop\3rProject\myApp\src\pages\tutorial\tutorial.html"*/
         }),
         __metadata("design:paramtypes", [__WEBPACK_IMPORTED_MODULE_1_ionic_angular__["h" /* NavController */], __WEBPACK_IMPORTED_MODULE_1_ionic_angular__["f" /* MenuController */]])
     ], TutorialPage);
